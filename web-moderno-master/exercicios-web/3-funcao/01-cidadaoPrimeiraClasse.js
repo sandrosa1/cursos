@@ -29,7 +29,8 @@ function soma(a, b) {
         console.log(a + b + c)
     }
 }
-
+//Primeira maneira de chamar
 soma(2, 3)(4)
+//Segunda maneira de chamar
 const cincoMais = soma(2, 3)
 cincoMais(4)

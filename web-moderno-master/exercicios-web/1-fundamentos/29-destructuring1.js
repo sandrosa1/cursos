@@ -30,5 +30,6 @@ console.log(endereco)
 const { endereco: { logradouro, numero, cep } } = pessoa
 console.log(logradouro, numero, cep)
 
+//O dado precisa existir para não dar erro
 //const { conta: { ag, num } } = pessoa
 //console.log(ag, num)

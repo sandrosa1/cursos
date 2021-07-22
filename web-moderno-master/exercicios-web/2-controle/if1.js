@@ -10,6 +10,8 @@ soBoaNoticia(6.1)
 function seForVerdadeEuFalo(valor) {
     if(valor) {
         console.log('É verdade... ' + valor)
+    }else{
+        console.log('Nãó e verdade :(')
     }
 }
 
