@@ -1,3 +1,5 @@
+
+//Apesar de não receber parametros a função em javascript pode passar parametros e ser recebido através do arguments
 function soma() {
     let soma = 0
     for (i in arguments) {
