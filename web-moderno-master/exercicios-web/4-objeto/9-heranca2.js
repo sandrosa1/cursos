@@ -33,6 +33,7 @@ const volvo = {
     }
 }
 
+//Função que estabelece uma relação de prototipo entre dois objetos
 Object.setPrototypeOf(ferrari, carro)
 Object.setPrototypeOf(volvo, carro)
 

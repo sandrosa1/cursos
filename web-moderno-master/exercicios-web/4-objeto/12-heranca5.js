@@ -15,6 +15,8 @@ Array.prototype.first = function() {
 console.log([1, 2, 3, 4, 5].first())
 console.log(['a', 'b', 'c'].first())
 
+
+//Não reescreva funções existente
 String.prototype.toString = function () {
     return 'Lascou tudo'
 }
